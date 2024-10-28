@@ -1,0 +1,35 @@
+.appearance__ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.appearance__ul li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.appearance__ul span {
+  background-color: rgb(241, 55, 80);
+  font-size: 14px;
+  border-radius: 12px;
+  padding: 3px 7px 3px 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: -0.5px;
+}
+.appearance__ul div {
+  display: flex;
+  gap: 10px;
+  letter-spacing: 1px;
+}
+
+.appearance__ul ion-icon {
+  color: rgb(255, 137, 27);
+}

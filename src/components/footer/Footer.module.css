@@ -1,0 +1,98 @@
+.footer__div {
+  display: flex;
+  width: 100%;
+  padding-top: 20px;
+  border-top: 0.7px solid gray;
+  border-bottom: 0.7px solid gray;
+}
+
+.footer__div_1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 12px;
+  padding-bottom: 8px;
+}
+
+.footer__div_1 .link__div {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__div_1 ul {
+  display: flex;
+  gap: 10px;
+}
+.footer__div_1 ul a {
+  font-size: 20px;
+  color: gray;
+}
+
+.footer__div_1 ul a ion-icon {
+  color: gray;
+}
+
+.footer__div_1 .link__div ul a ion-icon:hover {
+  color: white;
+}
+
+.footer__div_2 {
+  width: 70%;
+}
+
+.footer__div_1 .link__div > a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+.footer__div_1 .link__div > a > span {
+  color: rgb(241, 55, 80);
+}
+
+.info__div {
+  color: gray;
+}
+
+.footer__div_2 {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  padding-bottom: 40px;
+}
+
+.footer__div_2 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footer__div_2 ul a {
+  text-decoration: none;
+  color: rgb(82, 82, 82);
+  font-size: 13px;
+}
+
+.footer__div_2 ul a:hover {
+  color: rgba(224, 224, 224, 0.889);
+}
+
+.footer__div_2 ul li:first-child a {
+  color: rgba(224, 224, 224, 0.889);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  pointer-events: none;
+}
+
+/*
+-----------------Media-----------------
+*/
+
+@media (max-width: 560px) {
+  .footer__div_2 {
+    display: none;
+  }
+}

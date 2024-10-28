@@ -1,0 +1,141 @@
+.mainPage__div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.main__div1 {
+  width: 38%;
+  height: 500px;
+  position: relative;
+  display: flex;
+}
+
+.icon__btn_left {
+  width: 40px;
+  height: 100%;
+  position: absolute;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  bottom: 0;
+  border: none;
+  background-color: rgba(179, 179, 179, 0.387);
+}
+
+.icon__btn_right {
+  width: 40px;
+  height: 100%;
+  position: absolute;
+  cursor: pointer;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: rgba(179, 179, 179, 0.387);
+}
+
+.icon__btn_left:hover,
+.icon__btn_right:hover {
+  background-color: rgba(255, 255, 255, 0.196);
+}
+
+.icon__btn_left ion-icon,
+.icon__btn_right ion-icon {
+  font-size: 30px;
+  color: white;
+}
+
+.hero__img {
+  width: 100%;
+  height: 100%;
+}
+
+.main__div2 {
+  width: 58%;
+  height: 500px;
+  color: rgb(245, 245, 245);
+  margin-top: -8px;
+}
+
+.main__ul1 {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  letter-spacing: 2px;
+  padding-top: 30px;
+  border-bottom: 2px solid gray;
+  padding-bottom: 10px;
+  font-weight: 555;
+}
+
+.main__ul1 a {
+  text-decoration: none;
+  color: rgb(245, 245, 245);
+}
+
+.active {
+  border-bottom: 4px solid rgb(241, 55, 80);
+  padding-bottom: 9px;
+}
+.media__btn {
+  display: none;
+}
+
+/*
+-----------------Media-----------------
+*/
+
+@media (max-width: 1050px) {
+  .media__div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .media__div div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .media__btn {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+  }
+
+  .media__btn:hover {
+    background-color: rgba(255, 255, 255, 0.034);
+  }
+
+  .main__div1 {
+    display: none;
+  }
+
+  .mainPage__div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__ul1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .main__ul1 li {
+    padding-top: 5px;
+  }
+  .main__ul1 li a {
+    padding-bottom: 1px;
+  }
+}

@@ -1,0 +1,8 @@
+main {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 680px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}

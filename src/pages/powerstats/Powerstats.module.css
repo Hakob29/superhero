@@ -1,0 +1,43 @@
+.powerstats__ul2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.powerstats__ul2 > li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: gray;
+  cursor: default;
+}
+
+.powerstats__ul2 > li:hover {
+  color: rgb(179, 179, 179);
+}
+
+.powerstats__ul2 > li span {
+  position: absolute;
+  right: 0;
+  color: rgb(255, 137, 27);
+  font-weight: 600;
+}
+
+.ul__div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.ul__div p {
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+ion-icon {
+  color: rgb(237, 39, 65);
+}
